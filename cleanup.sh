@@ -10,6 +10,8 @@ docker rmi joomla
 docker volume rm -f $(docker volume ls -q)
 rm -rf devtools_project_joomlasite
 docker network rm net1
-
-rm my-joomla.backup.sql.gzip
-rm joomla-files.tar.gz
+cd ~
+if [ -f "my-joomla.backup.sql.gz"]; then
+  rm my-joomla.backup.sql.gz
+  rm joomla-files.tar.gz
+fi
