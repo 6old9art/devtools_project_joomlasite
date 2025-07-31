@@ -26,14 +26,14 @@ After resolving the backing up problems we managed to successfully restore the s
 Finally, we cleaned the machine from anything we installed during the work.  
 We then converted it into scripts which make the process almost entirely automatic to restore and backup the site again.  
 
-# Technologies we used:
+# Technologies We Used:
 - Linux VM
 - Docker
 - MySQL
 - Joomla
 - Git
 
-# Step by step instructions:
+# Step-by-Step Instructions:
 Enter your VM and open the command line.
 clone the project to your machine using:  
 git clone https://github.com/6old9art/devtools_project_joomlasite  
