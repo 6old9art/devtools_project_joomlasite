@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git clone https://github.com/6old9art/devtools_project_joomlasite
+cd ~
 cd devtools_project_joomlasite
 
 gunzip my-joomla.backup.sql.gz
