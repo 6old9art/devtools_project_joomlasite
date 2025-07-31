@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd ~
 sudo apt update
 devtools
 y
