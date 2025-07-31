@@ -6,7 +6,7 @@ cd devtools_project_joomlasite
 gunzip my-joomla.backup.sql.gz
 
 docker exec -i mysql1 sh -c "exec mysql -uroot -pmy-secret-pw joomladb" < my-joomla.backup.sql
-gunzip joomla-file.tar.gz
+gunzip joomla-files.tar.gz
 
 tar -xf joomla-files.tar
 
