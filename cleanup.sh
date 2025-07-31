@@ -8,5 +8,5 @@ docker rm joomla1
 docker rmi mysql
 docker rmi joomla
 docker volume rm -f $(docker volume ls -q)
-rm devtools_project_joomlasite
+rm -rf devtools_project_joomlasite
 docker network rm net1
