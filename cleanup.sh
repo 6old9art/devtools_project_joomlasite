@@ -1,0 +1,12 @@
+#!/bin/bash
+
+docker stop mysql1
+docker rm mysql1
+docker stop joomla1
+docker rm joomla1
+docker rmi mysql
+docker rmi joomla
+docker volume rm -f $(docker volume ls -q)
+cd ~
+rm devtools_project_joomlasite
+docker network rm net1
